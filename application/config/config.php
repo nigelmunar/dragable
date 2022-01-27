@@ -45,7 +45,7 @@
     $siteURL            = 'http' . (isset($_SERVER['HTTPS']) ? 's' : '') . '://' . (isset($_SERVER['SERVER_NAME']) ? $_SERVER['SERVER_NAME'] : '') . ((isset($_SERVER['SERVER_PORT']) ? $_SERVER['SERVER_PORT'] : '80') !== '443' && (isset($_SERVER['SERVER_PORT']) ? $_SERVER['SERVER_PORT'] : '80') !== '80' ? ':' . (isset($_SERVER['SERVER_PORT']) ? $_SERVER['SERVER_PORT'] : '80') : '') . '/';
     $scriptName         = strtolower(str_replace(ROOT_PATH . 'public_html/', '', (isset($_SERVER["SCRIPT_FILENAME"]) ? $_SERVER["SCRIPT_FILENAME"] : '')));
 
-    $isMe           = (getUserIP() === '' || ((getUserIP() === '::1' || getUserIP() === '127.0.0.1' || getUserIP() === '') && strpos($siteURL, '.local') !== false));
+    $isMe               = (getUserIP() === '' || ((getUserIP() === '::1' || getUserIP() === '127.0.0.1' || getUserIP() === '') && strpos($siteURL, '.local') !== false));
     
     $styles             = [];
     $scripts            = [];
