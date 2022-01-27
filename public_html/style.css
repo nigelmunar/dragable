@@ -1,0 +1,33 @@
+
+html { height: 100%; }
+
+body { padding: 20px; height: 100%; margin: 0; background-repeat: no-repeat; background-attachment: fixed; background: linear-gradient(70deg, #FFB281 , #FF97A7); font-family: 'Roboto', sans-serif;}
+
+.grid-stack { background: rgba( 255, 255, 255, 0.25 ); box-shadow: 0 8px 32px 0 rgba(255, 112, 134, 0.68); backdrop-filter: blur( 1.5px ); -webkit-backdrop-filter: blur( 1.5px ); border-radius: 10px; border: 1px solid rgba( 255, 255, 255, 0.18 ); }
+
+.grid-stack-item-content { background-color: #D88FEF; box-shadow: 9px 9px 9px rgba(0,0,0,0.1); text-align: center; border-radius: 10px;}
+
+.white-popup {  position: relative; background: #FFB281; backdrop-filter: blur( 1.5px ); -webkit-backdrop-filter: blur( 1.5px ); border-radius: 10px; border: 1px solid rgba( 255, 255, 255, 0.18 );  width: auto; max-width: 500px;  margin: 20px auto; padding: 40px; }
+
+.table-popup {  position: relative; background: #FFB281; backdrop-filter: blur( 1.5px ); -webkit-backdrop-filter: blur( 1.5px ); border-radius: 10px; border: 1px solid rgba( 255, 255, 255, 0.18 );  width: auto; max-width: 1000px;  margin: 20px auto; padding: 40px; }
+
+.btn { background-color: #D88FEF; border-radius: 10px; padding: 10px 30px; text-align: center; border: #D88FEF; cursor: pointer; -webkit-transition-duration: 0.4s; transition-duration: 0.4s; font-weight:600 }
+
+.btn:hover { box-shadow: 0 8px 32px  0 rgba(0, 0, 128, 0.15);}
+
+.inputField{ padding: 6px 10px; border-radius: 5px; font-size: 16px; border: none; box-shadow: 0 8px 32px 0 rgba(255, 153, 168, 0.79); background: white; width: 5%; }
+
+.widgetHeader{ height: 24px; background: rgba( 255, 255, 255, 0.25 ); }
+
+.deleteWidget { border-radius: 50%; border: none; background-color: transparent;}
+
+.deleteWidget:hover { cursor: pointer;}
+
+#button { color: #000;  border-radius: 10px; float: right; padding: 5px; text-decoration: none;  padding: 10px 30px; margin: 5px; background-color: #D88FEF;}
+
+#button:hover {background-color: #d37eed;}
+
+a {color: #000; float: right;}
+
+.editWidget:hover { cursor: pointer; }
+
